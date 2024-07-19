@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(202, 198, 135);
+}
+h1{
+    color: aqua;
+}
+.a1,h3{
+    color: rgb(82, 117, 230);
+}
+.main,.main1{
+    width: 500px;
+    height: 200px;
+    color: rgb(202, 74, 57);
+}
+.main{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    background-color: rgb(212, 210, 88);
+    padding-left: 300px;
+    padding-top: 150px;
+}
+.main1{
+    background-color: rgb(117, 148, 60);
+}
