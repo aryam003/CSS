@@ -1,0 +1,22 @@
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(21, 21, 180);
+    position: relative;
+}
+.sub1{
+    width: 300px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    position: absolute;
+}
+.sub2{
+    width: 300px;
+    height: 300px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(194, 14, 14);
+    position: absolute;
+}
