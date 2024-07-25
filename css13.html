@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        position: relative;
+    }
+    .sub1{
+        position: relative;
+        z-index: 1;
+        border: 2px solid rosybrown;
+        height: 100px;
+        margin: 10px;
+    }
+    .sub2{
+        position: absolute;
+        z-index: 3;
+        height: 100px;
+        width: 200px;
+        top: 50px;
+        left: 30px;
+        background:lightblue;
+    }
+    .sub3{
+        position: absolute;
+        z-index: 2;
+        height: 100px;
+        width: 500px;
+        top: 10px;
+        left: 150px;
+        background:rgb(126, 173, 95);
+    }
+</style>
+<body>
+    <h2>z-index</h2>
+    <div class="main">
+        <div class="sub1">welcome</div>
+        <div class="sub2">welcome</div>
+        <div class="sub3">welcome</div>
+    </div>
+</body>
+</html>
