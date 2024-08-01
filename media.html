@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            overflow: auto;
+        }
+        #main {
+            margin-left: 4px;
+        }
+        #leftsidebar{
+            float: none;
+            width: auto;
+        }
+        #menulist {
+            margin:0;
+            padding: 0;
+        }
+        .menuitem {
+            background-color: rgb(155, 93, 13);
+            border: 2px solid rgb(122, 5, 5);
+            border-radius: 4px;
+            list-style-type: none;
+            margin: 4px;
+            padding: 2px;
+        }
+        @media screen and (min-width: 480px) {
+         #leftsidebar {width: 200px; float: left;}
+         #main {margin-left: 216px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="leftsidebar">
+            <ul id="menulist">
+                <li class="menuitem">item1</li>
+                <li class="menuitem">item2</li>
+                <li class="menuitem">item3</li>
+                <li class="menuitem">item4</li>
+                <li class="menuitem">item5</li>
+            </ul>
+        </div>
+        <div id="main">
+            <h2>media </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid sunt tempora dicta neque quos laudantium, qui vel. Provident culpa porro iusto, a deserunt nesciunt labore! Corrupti vero minus iure cumque.</p>
+        </div>
+    </div>
+</body>
+</html>
